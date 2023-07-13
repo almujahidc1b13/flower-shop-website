@@ -300,9 +300,74 @@ ul{
 .latest-deals{
     height: 449px;
     width: 1440px;
-    background-image: url();
-}
+    background-image: url(../flower-shop-website/Flower\ Asset/rectangle9.png);
+    background-repeat: no-repeat;
+    margin-left: 240px;
+    margin-right: 239px;
+   
     
+
+
+}
+/* .latest-deals-details{
+    text-align: center;
+} */
+
+#latest{
+    height: 30px;
+    width: 231px;
+    padding-right: 605px;
+    padding-left: 604px;
+}
+#latest-deals-header{
+    height: 48px;
+    width: 370px;
+    padding: 100px 533px 0px 533px;
+}
+
+.input{
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+/* footer section stles */
+
+.footer-container{
+    height: 449px;
+    width: 1922px;
+    background-color:  #111010;
+    text-align: center;
+    
+}
+.footer-header{
+    color: #E55473;
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 800;
+    padding: 70px 832px 0px 831px;
+}
+span{
+    color: wheat;
+}
+.footer-description{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.90);
+    width: 625px;
+    height: 60px;
+    padding: 0px 648px 32px 649px;
+}
+.copyright{
+    height: 19px;
+    width: 355px;
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0px 783px 128px 784px;
+}
+
     
 
 
