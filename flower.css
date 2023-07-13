@@ -11,6 +11,7 @@ body{
     justify-content: space-between;
     margin-bottom: 178px;
 }
+
 .banner-text{
     flex-direction: row;
 }
@@ -77,27 +78,34 @@ body{
     font-family: Lato;
     font-size: 40px;
     font-weight: 800;
+    
+    text-align: center;
+   
+    
+    
+}
+#flowers{
     padding: 0 764px 20px 764px;
-    text-align: justify;
     width: 450px;
     height: 48px;
-    
-    
 }
 #flower-para{
-    width: 594px;
-    height: 60px;
+  
     text-align: center;
+    padding: 0 663px 20px 663px;
 }
 .section-description{
-    
+    width: 594px;
+    height: 60px;
     
     color: rgba(39, 39, 39, 0.60);
     
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    padding: 0 663px 20px 663px;
+    text-align: center;
+    
+    
 }
 .flower-details{
     
@@ -107,10 +115,8 @@ body{
 .section-img{
     display: flex;
     gap: 24px;
-    text-align: center;
-    align-items: end;
-    list-style: none;
-    justify-content: space-around;
+    
+    /* justify-content: space-around; */
     list-style: none;
     text-decoration: underline;
 
@@ -124,7 +130,7 @@ body{
     background: rgba(167, 33, 98, 0.15);
     }
 .png5{
-    align-items: center;
+    
     width: 370px;
     height: 370px;
     margin: 48px 24px 32px 0px;
@@ -148,7 +154,12 @@ body{
 }
 .flower-container{
    
-    width: 1920px;
+   max-width: 1920px;
+}
+.foul{
+    text-align: center;
+    justify-content: space-around;
+    align-items: baseline;
 }
 
 /* nav related styles */
@@ -158,10 +169,10 @@ body{
     display: flex;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
-    width: 1440px;
-    height: 320px;
+    max-width: 1500px;
+    max-height: 320px;
     
-    margin: 128px 240px 128px 240px;
+    margin: 128px 240px;
     align-items: center;
     justify-content: space-around;
     
@@ -194,7 +205,105 @@ ul{
     height: 35px;
     width: 202px;
 }
+.flower-asset > img{
+ size: 88px 88px;
+}
+/* complete flowewr  shop styles */
 
+.dealing-container{
+    display: flex;
+    max-height: 620px;
+    max-width: 1922px;
+    align-items: center;
+    background: rgba(229, 84, 115, 0.05);
+    border-radius: 8px;
+    margin-bottom: 128px;
+    justify-content: space-around;
+    
+}
+#dealing-section-header{
+    width: 537px;
+    height: 48px;
+    padding: 230px 215px 0px 423px;
+    
+}
+#dealing-section-description{
+   
+    padding: 2px 186px 52px 395px;
+
+}
+#sign-up{
+    margin-bottom: 162px;
+    margin: 0px 405px 162px 600px;
+    padding: 20px 43px;
+}
+.section-details{
+    text-align: center;
+}
+#png8{
+    width: 318px;
+    height: 420px;
+    padding: 100px 434px 100px 0px;
+}
+/* instagram container styles */
+
+.ins-sec-img{
+    display: flex; 
+    gap: 24px; 
+    align-items: center; 
+    
+}
+#Instagram-description{
+    padding: 0px 663px 0px 663px;
+}
+#Instagram-sec-details{
+    text-align: center;
+}
+#Instagram-sec-header{
+    width: 180px;
+    height: 48px;
+    padding: 128px 870px 0px 870px;
+}
+.ins-sec-img{
+    display: flex;
+    padding-left: 240px;
+    padding-right: 240x;
+    
+}
+
+#flower-1{
+    width: 342px;
+    height: 396px;
+ 
+
+}
+#Rectangle-4{
+    width: 342px;
+    height: 396px;
+}
+#Rectangle-5{
+    width: 342px;
+    height: 396px;
+}
+#Rectangle-6{
+    width: 342px;
+    height: 396px;
+    
+}
+.ins-sec-img{
+  padding-left: 240px;
+  padding-right: 240px;
+}
+/* complete instagram section */
+/* subscribe section style */
+
+.latest-deals{
+    height: 449px;
+    width: 1440px;
+    background-image: url();
+}
+    
+    
 
 
 
