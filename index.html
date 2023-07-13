@@ -1,18 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flower Shop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="flower.css">
+    
 </head>
 <body>
     <header class="banner">
-        <div class="banner-text"></div>
+        <div class="banner-text">
         
             <h1 class="bnr-header">Let's make beautiful flowers a part of your life.</h1>
             <p class="bnr-gratings">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.</p>
-            <button class="btn-primary">Shop Now</button>
+            <button class="btn-primary" id="shop-now">Shop Now</button>
         </div>
         <div class="banner-img">
             <img src="Flower Asset/pngwing 10.png" alt="pngwing10">
@@ -20,35 +25,52 @@
 
     </header>
     <main>
-        <section class="section-container">
-            <div class="flowers-container">
-                <div class="section-details">
+        <section class="flower-container">
+            >
+                <div class="flower-details">
                     <h3 class="section-header">Our Featured Flowers</h3>
-                    <p class="section-description">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                    <p class="section-description" id="flower-para">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
                 </div>
-                <div class="section-img">
-                    <div class="png6">
-                        <img src="Flower Asset/pngwing 6.png" alt=""><h6 class="flower-name">Pink Flower Tree</h6>
-                    </div>
-                    <div class="png5">
-                        <img src="Flower Asset/pngwing 5.png" alt=""><h6 class="flower-name">Pink Flower Tree</h6></div>
-                    <div class="png7">
-                        <img src="Flower Asset/pngwing 7.png" alt=""><h6 class="flower-name">Pink Flower Tree</h6></div>
+                <div class="img-and-name">
+                    <ul class="section-img">
+
+                        <li class="png6">
+                            <img src="Flower Asset/pngwing 6.png" alt=""><h4>Pink Flower Tree</h4>
+                        </li>
+                        <li class="png5">
+                            <img src="Flower Asset/pngwing 5.png" alt=""><br><br><br><br>
+                            <h4>Pink Flower Tree</h4>
+                        </li>
+
+                        <li class="png7">
+                            <img src="Flower Asset/pngwing 7.png" alt="">
+                            <h4>Pink Flower Tree</h4>
+                        </li>
+                    </ul>
+                    
                 </div>
-            </div>
+            
         </section>
 
         <section class="section-container">
             <nav class="nav-container">
-                <ul><img src="Flower Asset/Group 57.png" alt="">
-                    Same Day Delivery. Click & Collect.
-                </ul>
-                <ul><img src="Flower Asset/Group 58.png" alt="">
-                    Fresh Flowers. Local Growers.
-                </ul>
-                <ul><img src="Flower Asset/Group 59.png" alt="">
-                    24/7 Free Support.
-                </ul>
+            <ul>
+                <li class="flower-asset"><img src="Flower Asset/Group 57.png" alt="">
+                   <p id="delivery-man"> Same Day Delivery. Click & Collect.</p>
+                </li>
+            </ul>
+            <ul>
+                <li class="flower-asset"><img src="Flower Asset/Group 58.png" alt="">
+                    <p id="local-growers">Fresh Flowers. Local Growers.</p>
+            
+                </li>
+            </ul>
+            <ul>
+            
+                <li class="flower-asset"><img src="Flower Asset/Group 59.png" alt="">
+                    <p id="Support">24/7 Free Support.</p>
+                </li>
+            </ul>
             </nav>
             
 
